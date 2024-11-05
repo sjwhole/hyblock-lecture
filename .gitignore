@@ -1,0 +1,28 @@
+# Ignore node_modules anywhere in the project
+**/node_modules/
+**/.node_modules/
+
+# Ignore .cache anywhere in the project
+**/.cache/
+
+# Ignore artifacts anywhere in the project
+**/artifacts/
+
+# If you want to also ignore the root level ones specifically
+/node_modules/
+/.cache/
+/artifacts/
+
+# Common additional Hardhat/Solidity files you might want to ignore
+coverage
+coverage.json
+typechain
+typechain-types
+dist
+temp
+.DS_Store
+**/.DS_Store
+
+# Hardhat files
+cache
+.history
